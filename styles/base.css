@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004466; 
+    color:white;
+    text-align: center;
+}
+
+#course-title {
+    display: block;
+    font-size: 1.3rem;
+    padding: 15px;
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    background: #333;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    display: block;
+}
+
+nav a:hover {
+    background: #555;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.card {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;   
+}
+
+.card h2 {
+    background: #004466;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.country-grid {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 15px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.country-grid img {
+    width: 100%;
+    max-width: 200px;
+    border:1px solid #ccc;
+}
+.card h3 {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.card hr {
+    margin: 10px 0;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 15px;
+}
+
+.about-grid img {
+    width: 100%;
+}
+
+.card ul {
+    padding: 20px;
+}
+
+.card li {
+    margin-bottom: 10px;
+}
+
+.card a {
+    color: blue;
+    text-decoration: underline;
+}
+footer {
+    background-color: #004466;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}

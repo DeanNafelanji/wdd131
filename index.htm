@@ -2,10 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, intial-scale=1,0">
-    <title>WDD 131</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Dean Nafelanji</title>
+
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Dean Nafelanji. This page contains course assignments, personal information, and web development practice.">
+    <meta name="author" content="Dean Nafelanji">
+
+    <link rel="stylesheet" href="styles/base.css">
+    
+    <script src="scripts/getdates.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>WDD 131 - Dean Nafelanji</h1>
+    <header>
+        <span id="course-title">WDD 131 - Dynamic Web Fundamentals</span>
+
+        <nav>
+            <a href="https://www.linkedin.com/in/dean-nafelanji-320a3b13a">LinkedIn</a>
+            <a href="https://byupw.instructure.com/">Canvas</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng">Scripture</a>
+            <a href="#">Final Project</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Dean Nafelanji</h1>
+        <div class="card-container">
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="card-content">
+            <div class="about-grid">
+            <p>My name is Dean Nafelanji and I am studying Web Development. I was born in Harare, Zimbabwe. And I am currently living in South Africa. I am currently working as a AML+CFT Team Lead. I enjoy learning about technology, programming, and building useful digital tools</p>
+            <img src="images/profile.jpg" alt="Profile Photo">
+            </div>
+            </div>
+            <h3>Cape Town, South Africa</h3>
+            <hr>
+            <div class="country-grid">
+            <img src="images/country.jpg" alt="Country Image">
+            <p>I currently live in Cape Town, South Africa. The country is known for its diverse cultures, beautiful landscapes, and vibrant cities. Cape Town is often called the "Mother City" of South Africa, a place where history, nature, and modern life blend seamlessly. Nestled between the iconic Table Mountain and the Atlantic Ocean, the city offers breathtaking views and a unique coastal charm. It is big, beautiful, and full of life, home to world-class beaches, bustling markets, and a thriving arts food scene.</p>
+            </div>
+            </section>
+            <section class="card">
+            <h2> Web Dev Resources</h2>
+            <ul>
+                <li><a href="https://dev.to">Dev.to Community</a></li>
+                <li><a href="https://smashingmagazine.com">Smashing Magazine</a></li>
+                <li><a href="https://css-tricks.com">CSS Tricks</a></li>
+                <li><a href="https://w3schools.com">W3 Schools</a></li>
+                <li><a href="https://udemy.com">Udemy</a></li>
+                <li><a href="https://picsum.photos">Lorem Picsum Image Placeholder</a></li>
+            </ul>
+            </section>
+            </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Dean Nafelanji | South Africa</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
